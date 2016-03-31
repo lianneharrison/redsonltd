@@ -1,0 +1,108 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 100vh;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/* Homepage */
+#homepage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#homepage h1 {
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+#homepage h5 {
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+#logo-container img {
+  width: 7.5rem;
+}
+
+#navigation {
+  display: none;
+}
+
+#navigation:active {
+  display: inline-block;
+}
+
+#navigation a {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+/* How we can help */
+#how-we-can-help h5 p {
+  font-family: Roboto;
+}
+
+/* Company Info */
+#company-info h5 p li {
+  font-family: Roboto;
+}
+
+#company-info p {
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+#contact-info {
+  text-align: right;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Icons */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
